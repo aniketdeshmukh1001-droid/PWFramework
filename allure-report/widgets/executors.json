@@ -1,0 +1,1 @@
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":24,"buildName":"OrangeCRM #24","buildUrl":"http://localhost:8080/job/OrangeCRM/24/display/redirect","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/OrangeCRM/24/allure"}]

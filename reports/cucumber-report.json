@@ -1,0 +1,110 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm-login;valid-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 437953199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to url",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3389220100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters \"Admin\" in the username field",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1370095499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user enters \"admin123\" in the password field",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13169899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2465412399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should land on the Dashboard page",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 966048899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 145657100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM Login",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]

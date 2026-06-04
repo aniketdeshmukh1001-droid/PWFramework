@@ -1,0 +1,48 @@
+{
+   "login" :
+    {   
+        "username": "//*[@name='username']",
+        "password": "//*[@name='password']",
+        "loginBtn": "//*[@type='submit']",
+        "dashboard": "//h6[normalize-space()='Dashboard']",
+        "loginError": "//*[text()='Invalid credentials']"
+
+    },
+
+    "search" :
+    {
+        "adminTab" : "//*[text()='Admin']",
+        "usernameSearch" : "//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']",
+        "searchBtn" : "//button[normalize-space()='Search']",
+        "recordFound" : "//span[normalize-space()='(1) Record Found']"
+    },
+
+    "admin" :
+    {
+        "adminTab" : "//*[text()='Admin']",
+        "addButton" : "//button[normalize-space()='Add']",
+        "jobMenu" : "//span[normalize-space()='Job']",
+        "jobTitles" : "//a[normalize-space()='Job Titles']",
+        "userRoleDropdown" : "(//*[@class='oxd-select-wrapper'])[1]",
+        "userRoleOption" : "//div[@role='option']//span[normalize-space()='{role}']",
+        "employeeName" : "//label[text()='Employee Name']/following::input[1]",
+        "employeeSuggestion" : "//div[@role='option']//span[contains(normalize-space(),'{employee}')]",
+        "statusDropdown" : "(//*[@class='oxd-select-wrapper'])[2]",
+        "statusOption" : "//div[@role='option']//span[normalize-space()='{status}']",
+        "username" : "//label[text()='Username']/following::input[1]",
+        "password" : "//label[text()='Password']/following::input[1]",
+        "confirmPassword" : "//label[text()='Confirm Password']/following::input[1]",
+        "jobTitleInput" : "//label[text()='Job Title']/following::input[1]",
+        "jobDescriptionInput" : "//label[text()='Job Description']/following::textarea[1]",
+        "saveButton" : "//button[normalize-space()='Save']",
+        "successMessage" : "//p[contains(@class,'oxd-toast-content-text') and normalize-space()='Successfully Saved']"
+    }
+
+
+
+
+
+
+
+
+}
