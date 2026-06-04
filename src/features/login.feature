@@ -20,4 +20,4 @@ Scenario Outline: Invalid login
 Examples:
 |username|password|
 |ADMIN33|admin123|
-|Admin|admin12|
+|Admin|a@dmin12|
