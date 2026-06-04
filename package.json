@@ -7,6 +7,7 @@
     "test" : "npx rimraf allure-results && npx cucumber-js",
     "smoke" : "npx rimraf allure-results && npx cucumber-js --tags @smoke",
     "regression" : "npx rimraf allure-results && npx cucumber-js --tags @regression",
+    "addLocation" : "npx rimraf allure-results && npx cucumber-js --tags @addLocation",
     "report" : "allure generate allure-results --clean && allure open allure-report"
   },
   "keywords": [],

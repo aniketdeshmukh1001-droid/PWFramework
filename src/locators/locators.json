@@ -36,6 +36,27 @@
         "jobDescriptionInput" : "//label[text()='Job Description']/following::textarea[1]",
         "saveButton" : "//button[normalize-space()='Save']",
         "successMessage" : "//p[contains(@class,'oxd-toast-content-text') and normalize-space()='Successfully Saved']"
+    },
+
+    "locations" :
+    {
+        "organizationMenu" : "//span[normalize-space()='Organization']",
+        "locationsLink" : "//a[normalize-space()='Locations']",
+        "locationNameInput" : "//label[normalize-space()='Name']/following::input[1]",
+        "cityInput" : "//label[normalize-space()='City']/following::input[1]",
+        "stateProvinceInput" : "//label[normalize-space()='State/Province']/following::input[1]",
+        "zipCodeInput" : "//label[normalize-space()='Zip/Postal Code']/following::input[1]",
+        "countrySelect" : "//label[normalize-space()='Country']/following::div[contains(@class,'oxd-select-text')][1]",
+        "countryOption" : "//div[@role='option']//span[normalize-space()='{country}']",
+        "phoneInput" : "//label[normalize-space()='Phone']/following::input[1]",
+        "faxInput" : "//label[normalize-space()='Fax']/following::input[1]",
+        "addressTextarea" : "//label[normalize-space()='Address']/following::textarea[1]",
+        "notesTextarea" : "//label[normalize-space()='Notes']/following::textarea[1]",
+        "requiredFieldError" : "//p[contains(@class,'oxd-input-field-error-message') and normalize-space()='Required']",
+        "searchName" : "//div[contains(@class,'oxd-table-filter')]//label[normalize-space()='Name']/following::input[1]",
+        "locationRowByName" : "//div[contains(@class,'oxd-table-row') and contains(normalize-space(),'{locationName}')]",
+        "locationDeleteButton" : "//div[contains(@class,'oxd-table-row') and contains(normalize-space(),'{locationName}')]//button[.//i[contains(@class,'bi-trash')]]",
+        "deleteConfirmButton" : "//button[normalize-space()='Yes, Delete']"
     }
 
 
