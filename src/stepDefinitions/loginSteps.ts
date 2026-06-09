@@ -1,8 +1,8 @@
 import { Given, When, Then } from '@cucumber/cucumber'
 import { page } from '../hooks/hooks';
 import { BasePage } from '../pages/BasePage';
-import locator from '../locators/locators.json';
-import { URLS } from '../config/env';
+import locator from '../utils/config/locators.json';
+import { URLS } from '../utils/config/env';
 
 let base:BasePage;
        

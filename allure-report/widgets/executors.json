@@ -1,1 +1,1 @@
-[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":31,"buildName":"OrangeCRM #31","buildUrl":"http://localhost:8080/job/OrangeCRM/31/display/redirect","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/OrangeCRM/31/allure"}]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":40,"buildName":"OrangeCRM #40","buildUrl":"http://localhost:8080/job/OrangeCRM/40/display/redirect","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/OrangeCRM/40/allure"}]

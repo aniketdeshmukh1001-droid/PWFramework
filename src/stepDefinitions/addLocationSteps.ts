@@ -1,7 +1,7 @@
 import { When, Then, After } from '@cucumber/cucumber';
 import { page } from '../hooks/hooks';
 import { BasePage } from '../pages/BasePage';
-import locator from '../locators/locators.json';
+import locator from '../utils/config/locators.json';
 
 let base: BasePage;
 let currentLocationName: string;
