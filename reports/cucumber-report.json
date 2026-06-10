@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "orangehrm-login;valid-login",
-        "keyword": "Scenario",
-        "line": 7,
-        "name": "Valid login",
+        "id": "orangehrm-login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Invalid login",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 652504400
+              "duration": 695244100
             }
           },
           {
@@ -27,59 +27,59 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3382697499
+              "duration": 2151035200
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "user enters \"Admin\" in the username field",
+            "line": 15,
+            "name": "user enters \"ADMIN33\" in the username field",
             "match": {
               "location": "src\\stepDefinitions\\loginSteps.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 878103600
+              "duration": 379435400
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
+            "line": 16,
             "name": "user enters \"admin123\" in the password field",
             "match": {
               "location": "src\\stepDefinitions\\loginSteps.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 23461900
+              "duration": 13596300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
+            "line": 17,
             "name": "user clicks on Login button",
             "match": {
               "location": "src\\stepDefinitions\\loginSteps.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 1047892099
+              "duration": 51174399
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "user should land on the Dashboard page",
+            "line": 18,
+            "name": "application shows appropriate error message",
             "match": {
-              "location": "src\\stepDefinitions\\loginSteps.ts:30"
+              "location": "src\\stepDefinitions\\loginSteps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 580519899
+              "duration": 3038860899
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 531699
+              "duration": 174899
             }
           },
           {
@@ -95,14 +95,121 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 214020599
+              "duration": 174109000
             }
           }
         ],
         "tags": [
           {
-            "name": "@smoke",
-            "line": 6
+            "name": "@regression",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login;invalid-login",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 527088799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to url",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30003873700,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at BasePage.<anonymous> (D:\\PWFramework\\src\\pages\\BasePage.ts:14:25)\n    at D:\\PWFramework\\src\\pages\\BasePage.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\pages\\BasePage.ts:4:12)\n    at BasePage.navigate (D:\\PWFramework\\src\\pages\\BasePage.ts:19:16)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:12:23)\n    at D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:22:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user enters \"Admin\" in the username field",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user enters \"a@dmin12\" in the password field",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "application shows appropriate error message",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 30021830000,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\hooks\\hooks.ts:29:39)\n    at D:\\PWFramework\\src\\hooks\\hooks.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\hooks\\hooks.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\hooks\\hooks.ts:27:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 13
           }
         ],
         "type": "scenario"
@@ -114,5 +221,160 @@
     "name": "OrangeHRM Login",
     "tags": [],
     "uri": "src\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm-search-system-user-functionality;search-system-user-by-valid-username",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search system user by Valid username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 750843300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to url",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3544175199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters \"Admin\" in the username field",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 855130499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters \"admin123\" in the password field",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15155499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "src\\stepDefinitions\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45814499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user opens the Admin page",
+            "match": {
+              "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10266047500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user enters username as \"Admin\"",
+            "match": {
+              "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1345590800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40632599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "application shows 1 record found",
+            "match": {
+              "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 404998999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 266800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 528043500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm-search-system-user-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM search system user functionality",
+    "tags": [],
+    "uri": "src\\features\\searchSystemUser.feature"
   }
 ]

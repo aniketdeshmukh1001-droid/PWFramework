@@ -1,2 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6787","Valid login","","2026-06-09","passed","2026-06-09","","","",""
+"","6718","Search system user by Valid username","","2026-06-10","passed","2026-06-10","","","",""
+"","10118","Invalid login","","2026-06-10","passed","2026-06-10","","","",""
+"","7131","Invalid login","","2026-06-10","passed","2026-06-10","","","",""

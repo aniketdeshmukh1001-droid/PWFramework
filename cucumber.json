@@ -21,8 +21,8 @@
     [
       "progress",
       "json:reports/cucumber-report.json",
-      "allure-cucumberjs/reporter"
-      
+      "allure-cucumberjs/reporter",
+      "rerun:@rerun.txt"
     ],
   
    "formatOptions":
