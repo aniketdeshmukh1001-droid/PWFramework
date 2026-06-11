@@ -17,7 +17,7 @@ Before(async function ()
 
       const context = await browser.newContext();
 
-       page = await context.newPage();
+        page = await context.newPage();
  });
 
 After(async function ({ result })
