@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 465252100
+              "duration": 826101899
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1990381500
+              "duration": 3375185399
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 902019900
+              "duration": 887919400
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17288300
+              "duration": 9645599
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 780271899
+              "duration": 2579732300
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3034828699
+              "duration": 3037638300
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 705400
+              "duration": 195599
             }
           },
           {
@@ -95,7 +95,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 170452900
+              "duration": 160865099
             }
           }
         ],
@@ -119,7 +119,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 449422699
+              "duration": 689953599
             }
           },
           {
@@ -131,8 +131,9 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 1984134000
+              "status": "failed",
+              "duration": 30011408999,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at BasePage.<anonymous> (D:\\PWFramework\\src\\pages\\BasePage.ts:14:25)\n    at D:\\PWFramework\\src\\pages\\BasePage.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\pages\\BasePage.ts:4:12)\n    at BasePage.navigate (D:\\PWFramework\\src\\pages\\BasePage.ts:19:16)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:12:23)\n    at D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:22:12)"
             }
           },
           {
@@ -144,8 +145,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 365595900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -157,8 +158,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 14273999
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -170,8 +171,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 42724600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -183,8 +184,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:34"
             },
             "result": {
-              "status": "passed",
-              "duration": 3040797200
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -192,15 +193,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 91300
+              "duration": 179299
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 221728599
+              "status": "failed",
+              "duration": 30013192100,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\hooks\\hooks.ts:29:39)\n    at D:\\PWFramework\\src\\hooks\\hooks.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\hooks\\hooks.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\hooks\\hooks.ts:27:12)"
             }
           }
         ],
@@ -235,7 +237,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 443422999
+              "duration": 595866899
             }
           },
           {
@@ -247,8 +249,9 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 2224630100
+              "status": "failed",
+              "duration": 30012812300,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at BasePage.<anonymous> (D:\\PWFramework\\src\\pages\\BasePage.ts:14:25)\n    at D:\\PWFramework\\src\\pages\\BasePage.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\pages\\BasePage.ts:4:12)\n    at BasePage.navigate (D:\\PWFramework\\src\\pages\\BasePage.ts:19:16)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:12:23)\n    at D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\stepDefinitions\\loginSteps.ts:22:12)"
             }
           },
           {
@@ -260,8 +263,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 373863700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -273,8 +276,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 10537599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -286,8 +289,8 @@
               "location": "src\\stepDefinitions\\loginSteps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 40172099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -299,8 +302,8 @@
               "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 2705305700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -312,8 +315,8 @@
               "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 463930899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -325,8 +328,8 @@
               "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 59492699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -338,8 +341,8 @@
               "location": "src\\stepDefinitions\\searchSystemUserSteps.ts:24"
             },
             "result": {
-              "status": "passed",
-              "duration": 384114700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -347,15 +350,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 107999
+              "duration": 151100
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 196209699
+              "status": "failed",
+              "duration": 30021530499,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\hooks\\hooks.ts:29:39)\n    at D:\\PWFramework\\src\\hooks\\hooks.ts:8:71\n    at __awaiter (D:\\PWFramework\\src\\hooks\\hooks.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (D:\\PWFramework\\src\\hooks\\hooks.ts:27:12)"
             }
           }
         ],
